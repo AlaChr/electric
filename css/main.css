@@ -1,0 +1,73 @@
+#menu {
+    margin-top: 5px; 
+}  
+
+#menu ul {
+    text-align: center;
+}
+
+#menu li {
+    margin: 0 auto;
+    display: inline-block; 
+    margin-right: 6px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    background: #B0C4DE;
+    border-radius: 7px;
+    transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    -o-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg); 
+    -moz-transform: skewX(-10deg);
+}
+
+#menu a {
+    font-size: 120%;
+    display: block; 
+    padding: 12px 35px;
+    color: #000;  
+    transform: skewX(10deg);
+    -webkit-transform: skewX(10deg); 
+    -o-transform: skewX(10deg);
+    -ms-transform: skewX(10deg); 
+    -moz-transform: skewX(10deg);   
+ }
+
+#menu li:hover {
+    background: rgba(0,0,0,0.5); 
+    transform: translate3d(5px,5px,5px); 
+    
+}
+#menu a:hover {
+    color: #fff;
+     transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg); 
+    -o-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg); 
+    -moz-transform: skewX(-10deg);  
+}
+/*----------------------------
+ Подвал
+ ------------------------------*/
+#footer {
+margin: 0;
+padding: 0;
+width: auto;
+min-height: 100px;
+text-align: center;
+background: rgba(105, 105, 105, 0.5);
+ }
+
+ #footer p {
+     font-size: 70%;
+     color: #000;
+ }
+
+
+@media screen and (min-width:100px) and (max-width:1024px) {
+
+}
+@media screen and (min-width:100px) and (max-width:760px) {
+
+
+}

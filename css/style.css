@@ -1,0 +1,269 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+ 
+body {
+    width: 100%;
+    height: 100%;
+    color:#333;
+    font-family: "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:0.94em;
+    line-height:135%;
+    background: url(/images/fon.jpg) repeat;
+ }
+ 
+h1 {
+ font-size:200%;
+ font-weight:normal;
+ padding:0px 0 0px;
+ line-height:100%;
+ font-style:italic;
+}
+p {
+ color: #cd5252;
+ text-decoration:none;
+ 
+ } 
+
+a {
+    text-decoration:none;
+}
+ 
+
+#textlogo {
+    text-align: center;
+    float: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    line-height:200%;
+    text-shadow:3px 2px #FFAE00;
+    } 
+marquee {
+    font-size: 120%;
+}
+/* -------------------------------
+ Структура
+ ----------------------------------*/
+ 
+/* -------------------------------
+ Ширина сайта в 1000px
+ ----------------------------------*/
+ 
+#wrapper {
+ margin-top:40px;
+ border:0px solid #000;
+ width: 100%;
+ max-width:1000px;
+ margin: 0 auto;
+ height: auto !important;
+ margin-bottom:15px;
+ }
+ 
+ #wrapper hr {
+ margin-top:5px;
+ margin-bottom: 5px;
+ color:#696969;
+ height:2px;
+ 
+}
+/* -------------------------------
+ Шапка сайта
+ ----------------------------------*/
+ 
+#headerInner {
+ border: 0px solid #000;
+ position:relative;
+ width:100%;
+ max-width:1000px;
+ height: auto;
+ margin:0 auto;
+}
+ 
+.text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin:15px;
+}
+.text h1 {
+    text-align: center;
+    margin:15px;
+ }
+.text h2 {
+    text-align: left;
+    margin:15px;
+    font-style:italic;
+}    
+.text h3 {
+    text-align: center;
+    margin:15px;
+    font-style:italic;
+    color:#FF0000;
+ }
+.text p {
+    text-indent: 40px;
+    font-size: 130%;
+    line-height:150%;
+    text-align: justify;
+    margin:15px;
+    color:#000;
+ } 
+.text li {
+    text-indent: 40px;
+    font-size: 130%;
+    text-align: justify;
+    margin:15px;
+ } 
+ #entry {
+    border: 0px solid #000;
+    border-radius: 5px;
+    position:relative;
+    width:100%;
+    height:auto;
+    margin:0 auto; 
+    background: #555345;
+    background: url(/images/fonentry.jpg) repeat-x;
+    box-shadow: 26px 24px 28px -5px #c0c0c0;
+    padding-bottom: 10px;
+ }
+ #bloc {
+     width: 90%;
+     margin: 0 auto;
+     text-align: center;
+     
+ }
+#blocitem {
+    border: 1px solid #696969;
+    display: inline-table;
+    border-radius: 5px;
+    margin:10px;
+    width:200px;
+    height:200px;
+    box-shadow: 26px 24px 28px -5px #c0c0c0;
+    background: url(/images/bgform.jpg) repeat; 
+    }
+#blocitem p{
+    text-indent: 0;
+    text-align: center;
+    vertical-align:middle;
+    margin: 0;
+    display:table-cell!important;
+    vertical-align:middle;
+    }
+              
+ .tab {
+    width:70%; 
+    vertical-align: top; 
+    text-align: center;
+    font-size: 120%;
+    margin: auto;
+    margin-top: 30px;
+    border-collapse:collapse;
+    font-style:italic;
+    
+ } 
+    .tab td    {
+        border: 2px solid;
+    }
+    .tab th    {
+        border: 2px solid;
+}
+
+ #nametab {
+    text-align: justify;
+    padding: 7px;
+ }
+/* -------------------------------
+ Главный контент
+ ----------------------------------*/
+ 
+#content {
+border: 0px solid #000;
+width:100%;
+margin-right:0px;
+border: 0px solid #1FA2E1;
+}
+
+#middle:after {
+ content: '.';
+ display: block;
+ clear: both;
+ visibility: hidden;
+ height: 0;
+}
+ 
+/*----------------------------
+ Логотип
+ ------------------------------*/
+ 
+.logo {
+ left:0px;
+ top:0px;
+ width:100%;
+ height:100%;
+ float: left;
+ }
+ 
+ .logo p {
+ float: left;
+ }
+  
+.logo a {
+ margin-top:30px;
+ margin-right:30px;
+ float: right;
+ font-size:150%;
+ font-style:italic;
+ color:#3300cc;
+}
+#elimg {
+    float: right;
+}
+
+ 
+@media screen and (min-width:100px) and (max-width:1024px) {
+/* размер блока, где находятся главный контент и сайтбар*/
+body #wrapper {
+ margin-top:40px;
+ width: 90%;
+ margin: 0 auto;
+ }
+
+/* размер шапки сайта*/
+
+body #headerInner {
+ width:90%;
+ margin:0 auto;
+}
+ 
+/* размер главного контента*/
+
+#wrapper #content {
+ width:100%;
+}
+ 
+}/* скобка, закрывающая тег @media screen*/
+@media screen and (min-width:100px) and (max-width:750px) {
+    #textlogo {
+       font-size: 90%;
+ }
+}
+
+
+@media screen and (min-width:100px) and (max-width:690px) {
+    body {
+        font-size: 0.75em;
+    } 
+#wrapper #content {
+  float:none;
+  width:100%;
+  margin-right:0px;
+ }
+ .logo a {
+  font-size:130%;
+}
+#textlogo {
+    margin-top: 15px;
+    font-size: 75%;
+ }
+}

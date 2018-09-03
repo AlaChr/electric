@@ -1,0 +1,67 @@
+#formcomment {
+    width:50%;
+    margin: auto;
+    display: flex;
+    height: auto;
+    margin-top:10px; 
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background: url(/images/fonentry.jpg) no-repeat center top;
+    font-size: 130%;
+    overflow: hidden;
+}    
+#comment input {
+    width:150px;
+    margin: auto;
+    display: flex;
+    height: 30px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background: url(/images/fonentry.jpg) no-repeat center top;
+    font-size: 70%;
+    text-align:center;
+}  
+#comment input[type="submit"]  {
+    width:100px;
+    height: 40px;
+    border: 0px;
+    background: url(/images/btsend1.png) no-repeat center top;
+    text-indent: -1000em;
+        
+}
+#comment input[type="submit"]:hover  {
+    background: url(/images/btsend2.png) no-repeat center top;
+}
+#commentbloc {
+    width:500px;
+    height: auto;
+    margin-left:30px; 
+    margin-top:10px; 
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background: url(/images/fonentry.jpg) repeat center top;
+    box-shadow: 26px 24px 28px -5px #c0c0c0;
+}
+  #commentbloc p {
+      color: #000;
+      font-size: 110%;
+      text-align: justify;
+}
+
+#commentbloc hr {
+    height: 1px;
+    background: black;
+}  
+@media screen and (min-width:100px) and (max-width:1024px) {
+
+}
+@media screen and (min-width:100px) and (max-width:760px) {
+
+#commentbloc {
+    width:90%;
+}
+}
