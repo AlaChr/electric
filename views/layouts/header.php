@@ -31,7 +31,7 @@
             <div id="menu">
                 <ul>
                     <li><a href="<?php ROOT?>/">Главная</a></li>
-                    <li><a href="/comments">Отзывы клиентов</a></li>
+                   <!-- <li><a href="/comments">Отзывы клиентов</a></li> -->
                     <li><a href="/price">Цены</a></li>
                     <li><a href="/contact">Контакты</a></li>
                     <li><a href="/article">Полезные статьи</a></li>
