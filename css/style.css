@@ -1,17 +1,12 @@
-* {
- margin: 0;
- padding: 0;
-}
- 
 body {
     width: 100%;
     height: 100%;
     color:#333;
-    font-family: "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Comic Sans MS;
     font-size:0.94em;
     line-height:135%;
-    background: url(/images/fon.jpg) repeat;
- }
+    background: #FFEFD5;
+}
  
 h1 {
  font-size:200%;
@@ -81,17 +76,21 @@ marquee {
 }
 
 #bt-nd {
+    height: 400px;
+    }
+    #bt-nd img {
     
     }
     #bt-nd img {
-    float: left;
-    }
+        opacity: 0.3;
+        float: left;
+        }
 #bt-nd p {
-    font-family: Comic Sans MS;
     color: black;
-    font-size: 1.5em;
-    
-    
+    font-size: 1em;
+    }
+    #bt-ndb {
+        
     }
  
 .text {
@@ -131,7 +130,6 @@ marquee {
  #entry {
     border: 0px solid #000;
     border-radius: 5px;
-    position:relative;
     width:100%;
     height:auto;
     margin:0 auto; 
@@ -139,6 +137,7 @@ marquee {
     background: url(/images/fonentry.jpg) repeat-x;
     box-shadow: 26px 24px 28px -5px #c0c0c0;
     padding-bottom: 10px;
+    
  }
  #bloc {
      width: 90%;
