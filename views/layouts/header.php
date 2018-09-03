@@ -21,7 +21,7 @@
                 <h2>+7(927)784-31-88</h2>
             </div>  
             <div id ="elimg">
-             <img src="/images/Электрик1.png">   
+             <img src="/images/el1.png">   
             </div>
         </div>
     </div>

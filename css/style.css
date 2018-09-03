@@ -79,6 +79,20 @@ marquee {
  height: auto;
  margin:0 auto;
 }
+
+#bt-nd {
+    
+    }
+    #bt-nd img {
+    float: left;
+    }
+#bt-nd p {
+    font-family: Comic Sans MS;
+    color: black;
+    font-size: 1.5em;
+    
+    
+    }
  
 .text {
     margin-top: 5px;
