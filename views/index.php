@@ -23,7 +23,7 @@
                         
                         
                     </div>
-                    </div>
+                   
                     <div id="bloc">
                         <h1>Оказываем услуги по следующим направлениям:</h1> 
                         <div id="blocitem"> 
@@ -44,6 +44,7 @@
                         <div id="blocitem"> 
                             <p><img src='/images/mark.png'><br>Закупка материалов</p>
                         </div>
+                    </div>>
                     </div>>
                      
                             
